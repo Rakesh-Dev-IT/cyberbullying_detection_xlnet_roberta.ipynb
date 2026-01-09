@@ -18,12 +18,12 @@ This project addresses these limitations by leveraging the complementary strengt
 ## Proposed Methodology
 A **hybrid transformer-based architecture** is proposed using **XLNet** and **RoBERTa**.
 
-- A balanced cyberbullying dataset collected from multiple online sources is used
-- Data is split into **training and validation sets (90:10, stratified)**
-- Dual contextual embeddings are generated using XLNet and RoBERTa tokenizers
-- A custom PyTorch `Dataset` class processes inputs in parallel
-- CLS representations from both models are concatenated
-- The combined embedding is passed through a fully connected neural network for **binary classification**
+- A balanced cyberbullying dataset collected from multiple online sources  
+- Data split into **training and validation sets (90:10, stratified)**  
+- Dual contextual embeddings generated using XLNet and RoBERTa tokenizers  
+- Custom PyTorch `Dataset` class for parallel processing  
+- CLS token representations concatenated  
+- Fully connected neural network for **binary classification**
 
 ---
 

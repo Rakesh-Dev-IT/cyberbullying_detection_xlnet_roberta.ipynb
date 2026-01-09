@@ -1,5 +1,77 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[codz]
 *.pyc
-.env
+*$py.class
+
+# Model weights
 *.pth
+
+# Environment variables
+.env
+.envrc
+
+# Virtual environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
 .ipynb_checkpoints/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Logs & coverage
+*.log
+coverage.xml
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# Cache
+.cache
+.ruff_cache/
+.mypy_cache/
+
+# IDEs & editors
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Torch / Transformers cache (optional)
+.cache/huggingface/
+.cache/torch/
+
+# Cursor
+.cursorignore
+.cursorindexingignore
